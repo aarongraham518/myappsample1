@@ -1,0 +1,20 @@
+git init 		//initialize local git repo
+git add <file>		//Add files to index
+git status		//check status of working tree
+git commit		//commit changes in index
+git push		//Push to remote repository
+git pull		//Pull latest from remote repository
+git clone		//clone repo into a new directory (on your machine)
+
+git add index.html	//add file to staging area
+git add *.html		//add all html files to staging area
+git add .		//add everything to staging area
+git rm --cached index.html	//remove from staging area
+
+git commit -m "comments"	//commit your staged files
+
+git branch login	//create login branch?
+git checkout login	//change to login branch
+git checkout master	//change to master branch
+
+git merge login		//within master branch, will join login branch with master
