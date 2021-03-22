@@ -18,3 +18,14 @@ git checkout login	//change to login branch
 git checkout master	//change to master branch
 
 git merge login		//within master branch, will join login branch with master
+
+//add remote repo with origin as the name
+git remote add origin git@github.com:aarongraham518/myappsample1.git
+
+//check remote 
+git remote
+
+//create branch named main
+
+//push to origin remote repo named main/master
+git push -u origin main
